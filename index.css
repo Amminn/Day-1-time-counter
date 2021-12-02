@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+:root {
+--wine-red: #5b7be2;
+--bright-red: #D42D2F;
+--dark-green: #344D2F;
+--light-green: #77A047;
+--gold: #FAC57D;
+--snow: #F0F4F7;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 0.3s ease;
+}
+
+html, body {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: var(--dark-green);
+    background-color: var(--snow);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background: #d38312; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #d38312, #a83279); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #d38312, #a83279); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    padding: 1em 5em;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;    color: white;
+    padding: 30px 70px;
+    min-width: 490px;
+}
+
+.countdown-display {
+    font-size: 100px;
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+
+.flex .big, .flex p {
+    font-size: 50px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.322);
+}
+
+.flex .dots {
+    margin-top: 5px;
+}
+
+.flex span {
+    display: block;
+    text-align: center;
+    padding-inline: 5px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    font-size: 17px;
+    min-width: 70px;
+}
+
+.countdown-text {
+    margin-top: 20px;
+}
