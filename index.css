@@ -53,6 +53,12 @@ h1 {
 
 .flex {
     display: flex;
+    justify-content: center;
+}
+
+.flex > .mwidth {
+    /* background: blue; */
+    min-width: 5rem;
 }
 
 
